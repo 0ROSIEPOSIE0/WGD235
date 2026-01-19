@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #29b995, #0c2e79);
+            color: #6cfd9c;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #6cfd9c;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #ffffff00;
+            border-radius: 16px;
+            border-bottom: #ffffff 4px solid;
+            padding: 30px 20px;
+            text-align: center;
+            transition: transform 0.3s ease, background 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: #6cfd9c;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 0.9rem;
+            color: #6cfd9c;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Labs 1-8</h1>
+    <p>Select a section to continue</p>
+</header>
+
+<main>
+    <div class="grid">
+        <div class="card"><a href="wk1.html">Basics of CSS Animations and Transitions <br>LAB 1</a></div>
+        <div class="card"><a href="wk2.html">CSS Timing Functions<br>LAB 2</a></div>
+        <div class="card"><a href="wk3.html">Popup Form with Animation<br>LAB 3</a></div>
+        <div class="card"><a href="wk4.html"><br>LAB 4</a></div>
+        <div class="card"><a href="wk5.html"><br>LAB 5</a></div>
+        <div class="card"><a href="wk6.html"><br>LAB 6</a></div>
+        <div class="card"><a href="wk7.html"><br>LAB 7</a></div>
+        <div class="card"><a href="wk8.html"><br>LAB 8</a></div>
+    </div>
+</main>
+
+<footer>
+    © 2026 • Designed by Ashanti Sloan
+</footer>
+
+</body>
+</html>

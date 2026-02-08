@@ -101,19 +101,19 @@
                 }
             } //end class Ball
             //********************************//
-                        //******* Main Game Functions ****//
-                        //********************************//
-                        function updateBalls() {
-                            ctx.clearRect(0, 0, canvas.width, canvas.height);
-                            for (var i = 0; i < N_remaining; i++) {
-                                balls[i].update();
-                            }
-                        } 
-                        function drawBalls() {
-                            for (var i = 0; i < N_remaining; i++) {
-                                balls[i].draw();
-                            }
-                        } //end function
+            //******* Main Game Functions ****//
+            //********************************//
+            function updateBalls() {
+                 ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    for (var i = 0; i < N_remaining; i++) {
+                    balls[i].update();
+                    }
+                } 
+            function drawBalls() {
+            for (var i = 0; i < N_remaining; i++) {
+                 balls[i].draw();
+                    }
+                } //end function
             
                         function startGame() {
                             for (var i = 0; i < N; i++) {
